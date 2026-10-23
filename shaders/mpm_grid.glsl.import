@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://doyq6p1eyba83"
+path="res://.godot/imported/mpm_grid.glsl-937f7e196e30bdd4129d8852569a0138.res"
+
+[deps]
+
+source_file="res://shaders/mpm_grid.glsl"
+dest_files=["res://.godot/imported/mpm_grid.glsl-937f7e196e30bdd4129d8852569a0138.res"]
+
+[params]
+

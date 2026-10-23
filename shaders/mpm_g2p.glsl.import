@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dejekvjnb71o3"
+path="res://.godot/imported/mpm_g2p.glsl-5ecea6cfff7cb2e5a03b0dd6247202e3.res"
+
+[deps]
+
+source_file="res://shaders/mpm_g2p.glsl"
+dest_files=["res://.godot/imported/mpm_g2p.glsl-5ecea6cfff7cb2e5a03b0dd6247202e3.res"]
+
+[params]
+

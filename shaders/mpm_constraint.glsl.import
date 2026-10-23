@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dvgiuc30y7tts"
+path="res://.godot/imported/mpm_constraint.glsl-9dac58e28c5a450d3b99bdf8ce9e15ae.res"
+
+[deps]
+
+source_file="res://shaders/mpm_constraint.glsl"
+dest_files=["res://.godot/imported/mpm_constraint.glsl-9dac58e28c5a450d3b99bdf8ce9e15ae.res"]
+
+[params]
+

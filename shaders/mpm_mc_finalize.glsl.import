@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://olrad4a723av"
+path="res://.godot/imported/mpm_mc_finalize.glsl-56326d7e75ccdd3ed5592d9823a0ed63.res"
+
+[deps]
+
+source_file="res://shaders/mpm_mc_finalize.glsl"
+dest_files=["res://.godot/imported/mpm_mc_finalize.glsl-56326d7e75ccdd3ed5592d9823a0ed63.res"]
+
+[params]
+

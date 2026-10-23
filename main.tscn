@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://f56hhbonsj2t"]
+
+[ext_resource type="Script" uid="uid://bctmrdm30mac6" path="res://MpmSolver.cs" id="1_h2yge"]
+[ext_resource type="Script" uid="uid://n7dcec3mrftt" path="res://camera.gd" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://p2fr6ygve8fn" path="res://performanceLabel.gd" id="3_h2yge"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_s3hbl"]
+size = Vector3(4, 0.1, 4)
+
+[node name="Node3D" type="Node3D" unique_id=1578407269]
+script = ExtResource("1_h2yge")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=28088346]
+transform = Transform3D(0.7774629, -0.27325818, 0.5664639, 0, 0.90068054, 0.43448192, -0.6289287, -0.33779356, 0.7002456, 4.4723444, 2.770788, 5.4915895)
+script = ExtResource("2_0xm2m")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1104565766]
+transform = Transform3D(0.8848142, -0.26306438, 0.384579, -0.36365235, 0.12614456, 0.9229543, -0.29130888, -0.9564961, 0.01595053, 0, 2.6830125, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="DirectionalLight3D" unique_id=1951642718]
+transform = Transform3D(0.57328385, 0.61738396, -0.53868616, 0.81784153, -0.4711379, 0.33040088, -0.04981125, -0.6299733, -0.7750179, 0, 2.6830125, 0)
+light_energy = 0.556
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=27865559]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1294488449]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("3_h2yge")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=253466698]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=360145214]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -0.05, 2)
+mesh = SubResource("BoxMesh_s3hbl")
